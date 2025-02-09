@@ -60,10 +60,10 @@ PACKAGES="$PACKAGES luci-app-udpxy"
 PACKAGES="$PACKAGES luci-i18n-udpxy-zh-cn"
 PACKAGES="$PACKAGES luci-app-upnp"
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
+PACKAGES="$PACKAGES luci-app-netdata"
+PACKAGES="$PACKAGES luci-i18n-netdata-zh-cn"
 PACKAGES="$PACKAGES luci-proto-wireguard"
 PACKAGES="$PACKAGES qrencode"
-
-
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
